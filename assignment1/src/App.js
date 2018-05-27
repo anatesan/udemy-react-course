@@ -18,6 +18,13 @@ class App extends Component {
   }
 
   render() {
+
+    const changeableUserStyle = {
+      backgroundColor: 'yellow',
+      border: '1px',
+      color: 'blue'
+    }
+
     return (
       <div className="container App">
         <div className="row">
@@ -26,6 +33,10 @@ class App extends Component {
               changeHandler={this.onNameChangeHandler.bind(this)}/>
           </div>
             <div className="col-md-8">
+              <UserOutput 
+                userStyle={changeableUserStyle}
+                name={this.state.name}
+                age="56">Mystery Guy </UserOutput>
               <UserOutput
                 name="Ashok"
                 age="56" />
@@ -38,9 +49,7 @@ class App extends Component {
               <UserOutput
                 name="Shreyas"
                 age="23">Kid 1 </UserOutput>
-              <UserOutput
-                name={this.state.name}
-                age="56">Mystery Guy </UserOutput>
+
             </div>
           </div>
         </div>
