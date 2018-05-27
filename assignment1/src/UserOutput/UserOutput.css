@@ -1,0 +1,8 @@
+.user {
+  width: 50%;
+  display: inline-block;
+  border: 1px solid;
+  margin: 5px;
+  padding: 10px;
+  box-shadow: 5px 10px;
+}
