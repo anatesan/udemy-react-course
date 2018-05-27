@@ -2,16 +2,23 @@
   "name": "assignment1",
   "version": "0.1.0",
   "private": true,
+<<<<<<< HEAD
   "homepage": "https://anatesan.github.io/assignment1",
   "dependencies": {
     "gh-pages": "^1.1.0",
+=======
+  "dependencies": {
+>>>>>>> parent of eaba26e... Updates
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-scripts": "1.1.4"
   },
   "scripts": {
+<<<<<<< HEAD
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+=======
+>>>>>>> parent of eaba26e... Updates
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
